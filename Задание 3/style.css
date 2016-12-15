@@ -1,0 +1,57 @@
+P {
+    font-family: Arial, Helvetica, sans-serif; /* Гарнитура шрифта основного текста */
+    font-size: 90%;/* Размер шрифта */
+    color: black;/* Черный цвет текста */
+}
+P:first-letter {
+    font-family: 'Times New Roman', Times, serif; /* Гарнитура шрифта первой буквы */
+    font-size: 200%; /* Размер шрифта первого символа */
+    color: red; /* Красный цвет текста */
+}
+em {
+    background: green;
+}
+.gost  {
+    color: white; /* Цвет текста */
+}
+h2.gost {
+    color: orange; /* Цвет текста */
+}
+.fruits-list  {
+    color: grey; /* Цвет маркеров */
+}
+.fruits-list li span  {
+    color: grey; /* Цвет текста */
+}
+.vegetables-list{
+    color: red;
+}
+.vegetables-list li{
+    color: red;
+}
+.plants-list1 h2  {
+    color: blue;
+
+}
+.fruits-list1 {
+    color: green; /* Цвет маркеров */
+}
+.fruits-list1 li   {
+    color: green; /* Цвет текста */
+}
+.vegetables-list1{
+    color: red;
+}
+.vegetables-list1 li{
+    color: red;
+}
+.la {
+    text-align: left; /* Выравнивание по левому краю */
+    color: orange;
+}
+td {
+    text-align: center; /* Выравнивание по центру */
+}
+.col{
+    background: green; /* Цвет фона ячеек */
+}

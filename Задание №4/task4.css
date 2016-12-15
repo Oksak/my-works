@@ -1,0 +1,29 @@
+ul.list {
+     margin: 0; /* Обнуляем значение отступов */
+     padding: 4px; /* Значение полей */
+     background: #AB4DFF;
+     text-align: right;
+}
+ul.list li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 15px; /* Отступ слева */
+    position: center;
+    color: white; /* Цвет текста */
+    height: 100%;
+    padding: 4px 5px 5px 4px;
+    font-family: Economica,sans-serif ;
+    font-weight:bold;
+}
+ul.list li:hover {
+    background: white;
+    color: grey;
+    cursor: pointer;
+}
+.wrapper{
+    background:#AB4DFF;
+    margin: 0 auto;
+
+}
+.wrapper-ul{
+    width: 900px;
+}

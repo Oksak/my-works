@@ -1,0 +1,64 @@
+.list {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    background: #1AA4FF;
+    text-align: center;
+
+}
+.list li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 15px; /* Отступ слева */
+    position: center;
+    color: white; /* Цвет текста */
+    height: 100%;
+    padding: 4px 5px 5px 4px;
+    font-family: Economica,sans-serif ;
+    font-weight:bold;
+}
+.list li:hover {
+    background: white;
+    color: grey;
+    cursor: pointer;
+}
+.wrapper{
+    background:#1AA4FF;
+    position: relative;
+
+}
+.wrapper-ul{
+    width: 900px;
+    margin: 0 auto;
+}
+.sub-menu {
+    list-style: none;
+    background: #EEEEEE;
+    color: black;
+    position: absolute;
+    width: 100%;
+    top: 99%;
+    display: none;
+    padding: 5px 0;
+    text-align: center;
+    left: 0;
+
+}
+.sub-menu li {
+    color: black;
+
+}
+.down:hover .sub-menu {
+    display: block;
+
+}
+.sub-menu2 {
+    list-style: none;
+    background: #EEEEEE;
+    color: black;
+    position: absolute;
+    width: 100%;
+    display: none;
+    padding: 5px 0;
+}
+.down1:hover .sub-menu2 {
+    display: block;
+}

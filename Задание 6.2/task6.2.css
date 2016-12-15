@@ -1,0 +1,65 @@
+.imonials {
+  background-image: url("./photo/photo.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  width: 1400px;
+  height:300px;
+  margin: auto;
+}
+.imonials h2 {
+  text-align: center;
+  padding-top: 30px;
+  color:white;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+.imonials h2 .title{
+  color: orange;
+}
+.wrapper-person{
+  width: 45%;
+  float: left;
+  padding-left: 10px;
+}
+.person-photow{
+  background-image: url("./photo/photo2.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+}
+.persen-text{
+  background: white;
+  width: 400px;
+  height: 80px;
+  float: left;
+  margin-left: 35px;
+  padding: 10px;
+  font-style: italic;
+  text-decoration-color: #5C8DB9;
+  overflow-y:auto;
+}
+.person-photom{
+  background-image: url("./photo/photo3.png");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-left: 20px;
+}
+.text {
+  float: right;
+}
+p:first-child{
+  margin: 0;
+  border-bottom: 3px dotted black;
+  padding-bottom: 5px;
+  color: #5C8DB9;
+  text-overflow: ellipsis;
+}
+p{
+  margin:0;
+}
+
+

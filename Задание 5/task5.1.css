@@ -1,0 +1,70 @@
+.heder {
+    width: 220px;
+    height: 350px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(33,150,243,0.61);
+    margin: auto;
+
+}
+.head {
+    text-align: center;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+}
+.center{
+    text-align: center;
+}
+ul{
+    text-align: left;
+    list-style: none;
+    padding: 0 10px;
+}
+sup{
+    font-size: 28%;
+}
+sub{
+    font-size: 14px;
+}
+i{
+    font-size: 310%;
+}
+body {
+    font-family: sans-serif;
+    color:#35495A;
+}
+li:nth-child(odd){
+    background: #EDF5FD;
+
+}
+li:nth-child(even){
+    background:#F5F5F6 ;
+}
+.center li:before {
+    content: url("./task5.1/ok.png");
+    margin-right: 10px;
+    margin-left: 12px;
+}
+li{
+    padding:5px 0;
+    margin: 1px;
+    color:#8E929A;
+}
+.knopka{
+    background: orange;
+    border-right: 1px solid orange;
+    border-left: 1px solid orange;
+    border-top: 1px solid orange;
+    border-bottom: 3px solid #B3560B;
+    border-radius: 5px;
+    width: 190px;
+    height: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+.knopka:hover{
+    cursor: pointer;
+    border-bottom: none;
+}

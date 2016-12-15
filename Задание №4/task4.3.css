@@ -1,0 +1,35 @@
+li{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    padding-top: 7px;
+    font-size:15px;
+    color: #AB4DFF;
+    border-radius:10px;
+}
+.peger ul li {
+    border-right: 1px solid #AB4DFF;
+    border-top:1px solid  #AB4DFF;
+    border-bottom:1px solid  #AB4DFF;
+    border-left: 1px solid #AB4DFF;
+}
+ .peger span {
+     padding-left: 6px;
+     padding-right: 8px;
+}
+ ul li:hover{
+     background:#AB4DFF;
+     color: white;
+     cursor: pointer;
+ }
+.latter{
+    color: #AB4DFF;
+    cursor: pointer;
+
+}
+.dot{
+    vertical-align: sub;
+
+}
